@@ -35,6 +35,7 @@ function getLetter(){
         if (userChoice === ranLetter){
         wins++;
         getLetter();
+        yourChoice.textContent = " ";
         } else {
         lives--;
             if(lives === 0){
